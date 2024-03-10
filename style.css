@@ -8,6 +8,18 @@
     100% {
         transform: translateY(0);
     }
+
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 /* -------------------------ANIMATION */
 
@@ -31,7 +43,7 @@ body{
     /* border: dotted #98ABEE; */
     height: 8vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .Logo{
@@ -49,7 +61,7 @@ body{
     /* border:solid black; */
     display: flex;
     width:60%;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 .NavLinks a {
@@ -193,15 +205,21 @@ th {
     justify-content: space-between;
     align-items: center;
 }
-.nature{
+#nature{
     width: 50%;
 }
-p{
+.textbox p {
     font-family: 'Playfair Display', sans-serif;
     margin-left: 10px;
     line-height: 2;
     font-size: 17px;
-    
-   
-
+}
+.anim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.thanks{
+    animation: spin 2s linear 3;
 }
