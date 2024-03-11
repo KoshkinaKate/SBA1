@@ -218,7 +218,7 @@ th {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 20vh;
 }
 .thanks{
     animation: spin 2s linear 2;
@@ -233,3 +233,60 @@ footer{
     font-size: 15px;
     
 }
+/* EXTRA PICTURES--------------------------- */
+.cont3{
+    /* border: solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+.extra1{
+    /* border: solid blue; */
+    width: 45%;
+}
+.extra2{
+    /* border: solid pink; */
+    width:  45%;
+}
+.one{
+    width:100%;
+    padding-top: 7px;
+    /* padding-left: 17px; */
+}
+.two{
+    width: 95%;
+    /* padding-right: 5px; */
+}
+/* TEXT FOR EXTRAS */
+.text-container {
+    position: relative;
+    width: 100%;
+  }
+.text-container1 {
+    position: relative;
+    width: 95%;
+  }
+  
+  .partial-text {
+    overflow: hidden;
+    text-align: center;
+    background-color: #ece3d2;
+    font-family: 'Playfair Display', sans-serif;
+  }
+  
+  .full-text {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    background-color:#ece3d2;
+    display: none;
+    text-align: center;
+    font-family: 'Playfair Display', sans-serif;
+  }
+  
+  .partial-text:hover + .full-text {
+    display: block;
+  }
+  
