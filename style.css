@@ -221,5 +221,15 @@ th {
     height: 30vh;
 }
 .thanks{
-    animation: spin 2s linear 3;
+    animation: spin 2s linear 2;
+}
+/* FOOTER-------------------------- */
+footer{
+    /* border: solid black; */
+    text-align: center;
+    margin-top: 10px;
+    /* padding: 12px; */
+    color: gray;
+    font-size: 15px;
+    
 }
